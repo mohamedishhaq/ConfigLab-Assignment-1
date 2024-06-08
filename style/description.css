@@ -1,0 +1,26 @@
+.description{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: auto auto auto;
+    column-gap: 200px;
+    row-gap:70px ;
+}
+
+.description h2{
+    grid-area: 1/1/2/3;
+    
+    
+}
+
+.description div{
+    width: 300px;
+
+}
+
+
+@media (max-width:991.98px){
+    .description{
+        display: flex;
+        flex-direction: column;
+    }
+}

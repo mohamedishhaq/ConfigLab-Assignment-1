@@ -1,0 +1,16 @@
+.title-container{
+    display: flex;
+    flex-direction: column;
+    width: 842px;
+    align-items: center;
+
+}
+.title-container>h1{
+    font-size: 64px;
+}
+
+.title-container >p{
+    color: rgb(130, 130, 130, 1);
+    font-size: 24px;
+    margin-top: 0;
+}
